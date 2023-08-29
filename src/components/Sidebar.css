@@ -1,0 +1,14 @@
+.sidebar {
+  margin-right: 10px;
+  flex: 0.2;
+  background: #0d183ef6;
+  font-size: 0.65em;
+  border-radius: 10px;
+  height: 500px;
+}
+
+@media screen and (max-width: 786px) {
+  .sidebar {
+    display: none;
+  }
+}

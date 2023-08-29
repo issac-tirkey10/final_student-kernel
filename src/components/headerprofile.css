@@ -1,0 +1,118 @@
+.Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  background-color: white;
+  width: 100%;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.5);
+}
+
+.Header__logo > h2 {
+  display: flex;
+  position: relative;
+  right: 30%;
+  top: 5px;
+  font-weight: 400;
+  font-size: 30px;
+}
+.Header__icon a {
+  text-decoration: none;
+  color: grey;
+}
+.Header__icons {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.Header_profile__icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px 20px;
+  font-size: xx-large;
+  background-color: white;
+}
+.Header_profile__icon:hover {
+  background-color: rgba(233, 233, 233, 0.5);
+  border-radius: 10px;
+}
+.Header_profile__icon_icon:hover {
+  color: rgb(28, 28, 71);
+}
+.Header__icons > .active > .MuiSvgIcon-root {
+  fill: rgb(28, 28, 71);
+}
+
+.Header__icon > .MuiSvgIcon-root {
+  font-size: xx-large;
+  background-color: white;
+  padding: 5px 20px;
+  color: gray;
+}
+
+.Header__icon > .MuiSvgIcon-root:hover {
+  background-color: rgba(233, 233, 233, 0.5);
+  border-radius: 10px;
+  color: rgb(28, 28, 71);
+}
+
+.Header__input {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.Header__input > input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: rgb(49, 49, 49);
+}
+
+.Header__input > .MuiSvgIcon-root {
+  color: gray;
+}
+
+.Header__avatar {
+  cursor: pointer;
+  color: gray;
+  font-size: 30px;
+}
+.Header__avatar:hover {
+  color: rgb(28, 28, 71);
+}
+.Header__Rem {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.Header__Rem > .MuiSvgIcon-root {
+  font-size: xx-large;
+  color: gray;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.Header__Rem > .MuiSvgIcon-root:hover {
+  color: #0d183eda;
+}
+
+.Header__Rem > .MuiButton-root {
+  color: white;
+  background: #0d183eda;
+  text-transform: inherit;
+  border-radius: 20px;
+  margin-left: 25px;
+}
+
+.Header__Rem > .MuiButton-root:hover {
+  color: #ffffff;
+  background: #32508fdc;
+}
